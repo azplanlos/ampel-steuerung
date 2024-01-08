@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ampel-steuerung/static/css/main.95690a52.css",
+    "main.js": "/ampel-steuerung/static/js/main.c6ef9088.js",
+    "index.html": "/ampel-steuerung/index.html",
+    "main.95690a52.css.map": "/ampel-steuerung/static/css/main.95690a52.css.map",
+    "main.c6ef9088.js.map": "/ampel-steuerung/static/js/main.c6ef9088.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95690a52.css",
+    "static/js/main.c6ef9088.js"
+  ]
+}
