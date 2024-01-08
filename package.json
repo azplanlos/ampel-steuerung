@@ -6,9 +6,18 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.7",
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "konsta": "^3.1.2",
+    "microbit-web-bluetooth": "^0.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-library": "*",
     "react-scripts": "5.0.1",
+    "stencil": "^0.0.5",
+    "typescript": "^4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
   }
 }

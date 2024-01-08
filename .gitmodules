@@ -1,0 +1,3 @@
+[submodule "micorbit-web-components"]
+	path = micorbit-web-components
+	url = https://github.com/thegecko/microbit-web-components.git
