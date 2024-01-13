@@ -24,29 +24,24 @@ export default function AmpelStatusIcon(props: AmpelStatusProps) {
   let farbe3 = 'black';
 
   switch (props.status) {
-    case AmpelStatus.ROT: {
+    case AmpelStatus.ROT: 
       farbe1 = "red";
-    }
-    break;
-    case AmpelStatus.GELB: {
+      break;
+    case AmpelStatus.GELB: 
       farbe2 = "yellow";
-    }
-    break;
-    case AmpelStatus.GRÜN: {
+      break;
+    case AmpelStatus.GRÜN:
       farbe3 = "green";
-    }
-    break;
-    case AmpelStatus.ROTGELB: {
+      break;
+    case AmpelStatus.ROTGELB:
       farbe1 = "red";
       farbe2 = "yellow";
-    }
-    break;
-    case AmpelStatus.AN: {
+      break;
+    case AmpelStatus.AN:
       farbe1 = "red";
       farbe2 = "yellow";
       farbe3 = "green";
-    }
-    break;
+      break;
   }
 
   let styles = css({

@@ -1,6 +1,6 @@
 import './App.css';
 import React, { SyntheticEvent, useState } from 'react';
-import { App, Page, Navbar, Button, Block, BlockTitle, KonstaProvider, Link, Icon } from 'konsta/react';
+import { App, Page, Navbar, Button, Block, BlockTitle, Link, Icon } from 'konsta/react';
 import AmpelStatusIcon, { AmpelStatus } from './AmpelStatusIcon';
 
 
@@ -94,7 +94,7 @@ function BLEApp() {
           <Navbar title="Ampel" left={
           <Link navbar iconOnly>
             <Icon
-              ios={<img src="favicon-32x32.png" />}
+              ios={<img src="favicon-32x32.png" alt='' />}
             />
           </Link>
         } />
